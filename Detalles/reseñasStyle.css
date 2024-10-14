@@ -1,0 +1,91 @@
+/* Estilos Generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(38, 67, 67);/* Centra la imagen en la pantalla */
+    color: #333;
+}
+
+header {
+    background-color: rgb(199, 178, 239);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffdd57;
+}
+
+/* Sección de producto */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.detalle-producto {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+}
+
+.detalle-producto img {
+    width: 220px;
+    height: auto;
+    object-fit: cover; /* Mantiene las proporciones de la imagen */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.detalle-producto h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Limita el ancho del texto para evitar que el contenedor se expanda demasiado */
+.detalle-producto p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+    max-width: 600px; /* Limita el ancho del texto */
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #ccc;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
